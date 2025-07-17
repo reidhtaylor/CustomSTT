@@ -1,0 +1,43 @@
+# Byte‑compiled / optimized / DLLs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# IPython
+.ipython/
+profile_default/
+ipython_config.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+pip-wheel-metadata/
+
+# dotenv environment files
+.env
+
+# TensorFlow checkpoints & logs
+*.ckpt
+*.ckpt.*
+events.out.tfevents.*
+model.savedmodel/
+saved_model.pb
+*.pb
+graph.pbtxt
+logs/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
